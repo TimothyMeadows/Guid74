@@ -1,4 +1,5 @@
 # Guid74
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![nuget](https://img.shields.io/nuget/v/Guid74.svg)](https://www.nuget.org/packages/Guid74/)
 
 Lightweight .NET library to generate UUIDv7 and present them as UUIDv4 facades using a keyed SipHash mask. Useful when you need time-ordered IDs internally but want identifiers that look like random v4 UUIDs for external consumption.
 
@@ -33,7 +34,7 @@ var original = svc.DecodeFacade(facade); // recover v7 (requires same seed)
 Types
 
 - Guid74Options
-  - SeedGuid (Guid) — required seed used to derive SipHash keys.
+  - SeedGuid (Guid) â€” required seed used to derive SipHash keys.
 
 - Guid74Service
   - NewV7() -> Guid
