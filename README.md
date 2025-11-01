@@ -5,7 +5,7 @@ Lightweight .NET library to generate UUIDv7 and present them as UUIDv4 facades u
 
 ## Install
 
-Install from NuGet (replace with actual package id if published):
+Install from NuGet
 
 ```bash
 dotnet add package Guid74
